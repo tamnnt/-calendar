@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(220, 33, 33);
+}
+
+.table-content {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+th,
+td {
+    border: 1px solid;
+    padding: 10px;
+}
+
+.table-content table tr th {
+    font-size: 20px;
+    text-align: center;
+    border-radius: 15px;
+    color: rgb(22, 39, 33);
+    background-color: rgba(241, 75, 75, 0.282);
+}
+
+.table-content table tr td {
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+    color: rgb(22, 39, 33);
+    border-radius: 15px;
+}
+
+.table-content table tr td span {
+    font-size: 15px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.796);
+}
